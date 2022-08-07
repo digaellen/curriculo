@@ -1,0 +1,62 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #000000 0%, #3E0048 52.12%, #000000 100%);
+    color: rgb(255, 242, 254);
+    text-align: center;
+    width: 80%;
+    margin: 60px auto;
+}
+
+.cabecalho {
+    padding: 0%;
+    margin-bottom: 40px;
+}
+
+.cabecalho .avatar {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 100%;
+}
+
+.cabecalho .nome {
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.cabecalho .descricao {
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+.lista {
+    margin: 48px 0;
+}
+
+.lista .lista-links .link{
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    display: flex;
+    background-color: #3E0048;
+    
+}
+
+.lista .lista-links .link:hover{
+    background: linear-gradient(0deg, #b224ef 0%, #7579ff 100%)
+}
+
+.feito-por {
+    font-size: 12px;
+    color: #f08fff;
+    opacity: 0.6s;
+    transition: opacity 400ms;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 242, 254);
+}
