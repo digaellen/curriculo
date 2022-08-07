@@ -5,12 +5,15 @@ body {
     color: rgb(255, 242, 254);
     text-align: center;
     width: 80%;
+    max-width: 700px;
     margin: 60px auto;
 }
 
 .cabecalho {
     padding: 0%;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .cabecalho .avatar {
@@ -36,7 +39,7 @@ body {
 .lista .lista-links .link{
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 10px 0;
     border-radius: 10px;
     border: 0;
     height: 50px;
